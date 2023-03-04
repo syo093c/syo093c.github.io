@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://syo093c.github.io/sitemap.xml
