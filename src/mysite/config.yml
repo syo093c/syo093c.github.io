@@ -79,8 +79,6 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/syo093c"
-    - name: twitter
-      url: "https://twitter.com/wa1king_penguin"
 
   analytics:
     google:
@@ -124,6 +122,7 @@ menu:
       name: about me
       url: /me
       weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
