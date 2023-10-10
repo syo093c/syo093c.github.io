@@ -102,8 +102,7 @@ images = [ "papermod-cover.png" ]
   url = "https://www.kaggle.com/fuminsyo"
 
   [params.editPost]
-  #URL= "https://github.com/syo093c/syo093c.github.io/tree/main/content/"
-  URL= "content"
+  URL= "https://github.com/syo093c/syo093c.github.io/tree/main/content/"
   Text= "Changes" # edit text
   appendFilePath= true # to append file path to Edit link
 
