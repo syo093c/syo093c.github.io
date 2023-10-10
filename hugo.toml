@@ -1,0 +1,140 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '/var/log/syo093c'
+theme = 'PaperMod'
+
+paginate = 5
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+  [languages.en.taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[[languages.en.menu.main]]
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "WiKi"
+url = ""
+
+[[languages.en.menu.main]]
+name = "Discord"
+url = ""
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+author = "Theme PaperMod"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowToc = true
+images = [ "papermod-cover.png" ]
+
+  [params.profileMode]
+  enabled = false
+  title = "PaperMod"
+  imageUrl = "#"
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Archives"
+    url = "archives"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Welcome to Show'sLog"
+  Content = """
+  Hi, this is Show Wang. I'm noting my learning and life in this blog.
+"""
+
+  [[params.socialIcons]]
+  name = "Rss"
+  url = "index.xml"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/syo093c"
+
+  [[params.socialIcons]]
+  name = "signate"
+  url = "https://signate.jp/users/112141"
+
+  [[params.socialIcons]]
+  name = "kaggle"
+  url = "https://www.kaggle.com/fuminsyo"
+
+
+  [params.editPost]
+  URL= "https://github.com/syo093c/syo093c.github.io/content"
+  Text= "Changes" # edit text
+  appendFilePath= true # to append file path to Edit link
+
+  [params.assets]
+  disableHLJS = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
