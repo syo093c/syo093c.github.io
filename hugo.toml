@@ -103,7 +103,7 @@ images = [ "papermod-cover.png" ]
 
 
   [params.editPost]
-  URL= "https://github.com/syo093c/syo093c.github.io/content"
+  URL= "https://syo093c.github.io/content"
   Text= "Changes" # edit text
   appendFilePath= true # to append file path to Edit link
 
